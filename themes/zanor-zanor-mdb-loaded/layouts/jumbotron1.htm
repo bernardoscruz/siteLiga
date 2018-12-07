@@ -1,0 +1,99 @@
+description = "Jumbotron"
+
+[staticPage]
+useContent = 1
+default = 0
+
+[builderList]
+modelClass = "Bernardo\EmpresasJuniores\Models\Empresa"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "id"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+<?php
+function onStart()
+{
+    $this->addCss('assets/css/jumbotron.css');
+}
+?>
+==
+{% partial 'site/head' %}
+{% partial 'site/nav' %}
+
+<main>
+    <!--Main layout-->
+    <div class="container">
+        <!--First row-->
+        <div class="row wow fadeIn" data-wow-delay="0.2s">
+            <div class="col-md-12">
+                <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(28).jpg" class="img-fluid" alt="">
+                        <a href="#">
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body text-center mb-3">
+                        <!--Title-->
+                        <h3 class="card-title mt-2 pb-4">
+                            <strong>Empresas Juniores de Juiz de Fora</strong>
+                        </h3>
+                        <!--Text-->
+                        <p class="card-text">As Empresas Juniores que compõem e trabalham para sermos a maior da maré.
+                        </p>
+                        <a href="#" class="btn btn-blue-grey btn-md">Buscar</a>
+                    </div>
+
+                </div>
+                <!--/.Card-->
+            </div>
+        </div>
+        <!--/.First row-->
+        
+        
+{% set records = builderList.records %}
+{% set displayColumn = builderList.displayColumn %}
+{% set noRecordsMessage = builderList.noRecordsMessage %}
+{% set detailsPage = builderList.detailsPage %}
+{% set detailsKeyColumn = builderList.detailsKeyColumn %}
+{% set detailsUrlParameter = builderList.detailsUrlParameter %}
+
+<div class="row mt-5 pt-4">
+{% for record in records %}
+
+    <div class="col-lg-4">
+                <!--Card-->
+                <div class="card mb-r wow fadeIn" data-wow-delay="0.2s">
+
+                    <!--Card image-->
+                    <img class="img-fluid" src="{{ record.logoEmpresa.thumb(330,250, 'crop') }}" alt="{{ record.logoEmpresa.description }}">
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">
+                            <strong>{{ record.nome }}</strong>
+                        </h4>
+                        <!--Text-->
+                        <p class="card-text">{{ record.descricao }}</p>
+                        <a href="{{ record.contato }}" target = "_blank" class="btn btn-blue-grey btn-md">Contato</a>
+                    </div>
+
+                </div>
+                <!--/.Card-->
+            </div>
+
+{% endfor %}
+</div>      
+</main>
+
+{% partial 'site/footer' %}

@@ -1,0 +1,189 @@
+1544155850a:1:{s:14:"noSidebar1.htm";a:7:{s:8:"fileName";s:14:"noSidebar1.htm";s:7:"content";s:3251:"description = "No Sidebar"
+
+[staticPage]
+useContent = 1
+default = 0
+==
+{% partial 'site/head' %}
+{% partial 'site/nav' %}
+
+<div class="container py-5">
+    
+    {% page %}
+    <div class="lt-row row">
+        <div class="lt-col col s12">
+          <h2 class="lt-title">Diz aê!</h2>
+          <p class="flow-text">Quer tirar uma ideia do papel? Quer saber mais sobre Juiz de Fora? Ou simplesmente mandar um bom dia? </p>
+        </div>
+      </div>
+      
+      <div class="lt-vertical-spacer"></div>
+      
+      <form class="col s12">
+        <div class="lt-row row">
+          <div class="input-field lt-col col s6">
+            <input type="text" class="validate" id="first_name">
+            <label for="first_name" class="active">Nome</label>
+          </div>
+          <div class="input-field lt-col col s6">
+            <input type="text" id="last_name">
+            <label for="last_name">Sobrenome</label>
+          </div>
+        </div>
+        <div class="lt-row row">
+          <div class="input-field lt-col col s12">
+            <input type="email" class="validate" id="email">
+            <label data-success="right" data-error="wrong" for="email">Email</label>
+          </div>
+        </div>
+        <div class="lt-row row">
+          <div class="input-field lt-col col s12">
+            <select multiple>
+              <option value="" disabled selected>O que deseja?</option>
+              <option value="1">Projeto</option>
+              <option value="2">Bench</option>
+              <option value="3">Outro</option>
+            </select>
+            <label>Assunto</label>
+          </div>
+        </div>
+        <div class="lt-row row">
+          <div class="input-field lt-col col s12">
+            <textarea id="textarea1" class="materialize-textarea"></textarea>
+            <label for="textarea1">Mensagem</label>
+          </div>
+        </div>
+        
+        <!--
+        <div class="lt-row row">
+          <div class="lt-col col s12">
+            <div class="file-field input-field">
+              <div class="btn">
+                <span>File</span>
+                <input type="file" multiple>
+              </div>
+              <div class="file-path-wrapper">
+                <input class="file-path validate" type="text" placeholder="Upload one or more files">
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="lt-row row">
+          <div class="lt-col col s12">
+            <label for="datepicker">Set the Date</label>
+            <input type="date" class="datepicker" id="datepicker">
+          </div>
+        </div>
+       
+        <div class="lt-row row">
+          <div class="lt-col col s12">
+            <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+            <label for="filled-in-box">Send copy to my email</label>
+          </div>
+        </div>
+         -->
+        <div class="lt-vertical-spacer"></div>
+      
+        <div class="lt-row row">
+          <div class="lt-col col s12">
+            <button class="btn-large waves-effect waves-light" type="submit" name="action">Enviar <i class="material-icons right"></i></button>
+          </div>
+        </div>
+      </form>
+    
+</div>
+
+{% partial 'site/footer' %}
+
+";s:5:"mtime";i:1542569345;s:6:"markup";s:3178:"{% partial 'site/head' %}
+{% partial 'site/nav' %}
+
+<div class="container py-5">
+    
+    {% page %}
+    <div class="lt-row row">
+        <div class="lt-col col s12">
+          <h2 class="lt-title">Diz aê!</h2>
+          <p class="flow-text">Quer tirar uma ideia do papel? Quer saber mais sobre Juiz de Fora? Ou simplesmente mandar um bom dia? </p>
+        </div>
+      </div>
+      
+      <div class="lt-vertical-spacer"></div>
+      
+      <form class="col s12">
+        <div class="lt-row row">
+          <div class="input-field lt-col col s6">
+            <input type="text" class="validate" id="first_name">
+            <label for="first_name" class="active">Nome</label>
+          </div>
+          <div class="input-field lt-col col s6">
+            <input type="text" id="last_name">
+            <label for="last_name">Sobrenome</label>
+          </div>
+        </div>
+        <div class="lt-row row">
+          <div class="input-field lt-col col s12">
+            <input type="email" class="validate" id="email">
+            <label data-success="right" data-error="wrong" for="email">Email</label>
+          </div>
+        </div>
+        <div class="lt-row row">
+          <div class="input-field lt-col col s12">
+            <select multiple>
+              <option value="" disabled selected>O que deseja?</option>
+              <option value="1">Projeto</option>
+              <option value="2">Bench</option>
+              <option value="3">Outro</option>
+            </select>
+            <label>Assunto</label>
+          </div>
+        </div>
+        <div class="lt-row row">
+          <div class="input-field lt-col col s12">
+            <textarea id="textarea1" class="materialize-textarea"></textarea>
+            <label for="textarea1">Mensagem</label>
+          </div>
+        </div>
+        
+        <!--
+        <div class="lt-row row">
+          <div class="lt-col col s12">
+            <div class="file-field input-field">
+              <div class="btn">
+                <span>File</span>
+                <input type="file" multiple>
+              </div>
+              <div class="file-path-wrapper">
+                <input class="file-path validate" type="text" placeholder="Upload one or more files">
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="lt-row row">
+          <div class="lt-col col s12">
+            <label for="datepicker">Set the Date</label>
+            <input type="date" class="datepicker" id="datepicker">
+          </div>
+        </div>
+       
+        <div class="lt-row row">
+          <div class="lt-col col s12">
+            <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+            <label for="filled-in-box">Send copy to my email</label>
+          </div>
+        </div>
+         -->
+        <div class="lt-vertical-spacer"></div>
+      
+        <div class="lt-row row">
+          <div class="lt-col col s12">
+            <button class="btn-large waves-effect waves-light" type="submit" name="action">Enviar <i class="material-icons right"></i></button>
+          </div>
+        </div>
+      </form>
+    
+</div>
+
+{% partial 'site/footer' %}";s:4:"code";N;s:11:"description";s:10:"No Sidebar";s:10:"staticPage";a:2:{s:10:"useContent";s:1:"1";s:7:"default";s:1:"0";}}}

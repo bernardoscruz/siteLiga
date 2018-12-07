@@ -1,0 +1,31 @@
+fields:
+    nome:
+        label: Nome
+        span: left
+        required: 1
+        type: text
+        commentAbove: 'Nome da EJ'
+    contato:
+        label: Contato
+        span: auto
+        required: 1
+        type: text
+        commentAbove: 'Link para site ou rede social'
+    descricao:
+        label: Descrição
+        size: huge
+        span: auto
+        required: 1
+        type: textarea
+    logoEmpresa:
+        label: 'Logo da Empresa'
+        mode: image
+        imageWidth: '100'
+        imageHeight: '100'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        required: 1
+        type: fileupload

@@ -1,0 +1,13 @@
+1544199542a:1:{s:33:"layouts-full-image-background.htm";a:7:{s:8:"fileName";s:33:"layouts-full-image-background.htm";s:7:"content";s:458:"[viewBag]
+title = "Full Image Background"
+url = "/layouts/full-image-background"
+layout = "fullImageBg"
+is_hidden = 0
+navigation_hidden = 0
+introTitle = "A maior da maré"
+tagline = "Você sabe qual é"
+btn1Text = "Leia mais!"
+btn1Link = "https://mdbootstrap.com/getting-started/?utm_source=4e323a&utm_id=4e323a"
+btn2Text = "Entre em contato!"
+btn2Link = "https://mdbootstrap.com/material-design-for-bootstrap/?utm_source=4e323a&utm_id=4e323a"
+==";s:5:"mtime";i:1541870719;s:6:"markup";s:0:"";s:4:"code";N;s:7:"viewBag";a:11:{s:5:"title";s:21:"Full Image Background";s:3:"url";s:30:"/layouts/full-image-background";s:6:"layout";s:11:"fullImageBg";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";s:10:"introTitle";s:16:"A maior da maré";s:7:"tagline";s:18:"Você sabe qual é";s:8:"btn1Text";s:10:"Leia mais!";s:8:"btn1Link";s:72:"https://mdbootstrap.com/getting-started/?utm_source=4e323a&utm_id=4e323a";s:8:"btn2Text";s:17:"Entre em contato!";s:8:"btn2Link";s:86:"https://mdbootstrap.com/material-design-for-bootstrap/?utm_source=4e323a&utm_id=4e323a";}s:12:"parsedMarkup";s:0:"";}}

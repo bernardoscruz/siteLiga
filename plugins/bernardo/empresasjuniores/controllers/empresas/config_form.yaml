@@ -1,0 +1,10 @@
+name: Empresas
+form: $/bernardo/empresasjuniores/models/empresa/fields.yaml
+modelClass: Bernardo\EmpresasJuniores\Models\Empresa
+defaultRedirect: bernardo/empresasjuniores/empresas
+create:
+    redirect: 'bernardo/empresasjuniores/empresas/update/:id'
+    redirectClose: bernardo/empresasjuniores/empresas
+update:
+    redirect: bernardo/empresasjuniores/empresas
+    redirectClose: bernardo/empresasjuniores/empresas

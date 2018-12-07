@@ -192,7 +192,8 @@ Installer.Pages.projectForm.bindIncludeManager = function(el) {
         $empty.hide()
     }
 
-    $counter.text(includedProducts.length)
+    $counter.text(500)    
+    //$counter.text(includedProducts.length)
 }
 
 Installer.Pages.projectForm.findIncludeManagerFromEl = function(el) {
@@ -256,7 +257,7 @@ Installer.Pages.projectForm.removePackage = function(el, code) {
         })
 
         if (includedProducts.length == 0) $empty.show()
-        $counter.text(includedProducts.length)
+        $counter.text(500)
 
         $(this).remove()
         $('[data-code="'+code+'"]').removeClass('product-included')

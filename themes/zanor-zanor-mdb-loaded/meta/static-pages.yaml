@@ -1,0 +1,21 @@
+static-pages:
+    index: {  }
+    layouts-full-image-carousel: {  }
+    layouts:
+        layouts-basic-landing-page: {  }
+        layouts-full-image-background: {  }
+        layouts-corporate: {  }
+        layouts-half-page-carousel: {  }
+        layouts-jumbotron: {  }
+        layouts-team-profiles: {  }
+    subpages:
+        subpages-child-one: {  }
+        subpages-child-two: {  }
+        subpages-child-three: {  }
+    liga: {  }
+    empresas-juniores: {  }
+    programas:
+        programas-eventos: {  }
+        programas-lojinha: {  }
+        programas-programas: {  }
+    contato: {  }

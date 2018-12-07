@@ -1,0 +1,16 @@
+plugin:
+    name: 'bernardo.empresasjuniores::lang.plugin.name'
+    description: 'bernardo.empresasjuniores::lang.plugin.description'
+    author: Bernardo
+    icon: oc-icon-group
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Empresas Juniores'
+        url: bernardo/empresasjuniores/empresas
+        icon: icon-institution
+        sideMenu:
+            side-menu-item:
+                label: 'Menu Item'
+                icon: icon-sitemap
+                url: /
